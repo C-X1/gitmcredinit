@@ -1,0 +1,13 @@
+galaxy_info:
+  author: cyborg-x1
+  description: Ansible role to setup git global user.name and user.email for multiple users per machine
+  license: BSD
+  min_ansible_version: 1.2
+  github_branch: master
+  galaxy_tags:
+    - git
+    - config
+    - user
+    - name
+    - email
+dependencies: []

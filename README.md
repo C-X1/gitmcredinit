@@ -1,4 +1,4 @@
-ansible-gitmcredinit 
+gitmcredinit 
 =========
 
 Initialize global credentials (user.name and user.email) for multiple users on development a machine
@@ -43,7 +43,7 @@ Example Playbook
               email: "anna@example.com"
           
       roles:
-        - role: ansible-gitmcredinit
+        - role: gitmcredinit
 
 License
 -------
