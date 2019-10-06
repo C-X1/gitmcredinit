@@ -11,11 +11,11 @@ Git must be installed on the target system. Requires root user.
 Role Variables
 --------------
 
-     users:
+     users: #array of users for a machine
          - 
-          user: "robert"
-          name: "Robert Example"
-          email: "robert@example.com"
+          user: "robert" #username on the machine
+          name: "Robert Example" #git config --global user.name 
+          email: "robert@example.com" #git config --global user.email
          - 
           user: "anna"
           name: "Anna Example"
