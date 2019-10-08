@@ -12,11 +12,13 @@ Role Variables
 -----------------
 
 | Variable | Description    |
+| -------- | -------------- |
 | users    | Array of users |
 
 ### User Item description ###
 
 | Variable | Description         |
+| -------- | ------------------- |
 | user     | System user account |
 | name     | Full name of user   |
 | email    | Email               |
