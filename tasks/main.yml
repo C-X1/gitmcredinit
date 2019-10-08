@@ -1,16 +1,13 @@
 ---
 # tasks file for git
--
-  name: Initialize git user.name
-  with_items: "{{users}}"
+- name: Initialize git user.name
+  with_items: "{{ users }}"
   become: yes
-  become_user: "{{item.user}}"
-  shell: 'git config --global user.name "{{item.name}}"'
+  become_user: "{{ item.user }}"
+  command: 'git config --global user.name "{{ item.name }}"'
 
--
-  name: Initialize git user.email
-  with_items: "{{users}}"
+- name: Initialize git user.email
+  with_items: "{{ users }}"
   become: yes
-  become_user: "{{item.user}}"
-  shell: 'git config --global user.name "{{item.email}}"'
-
+  become_user: "{{ item.user }}"
+  command: 'git config --global user.name "{{ item.email }}"'
